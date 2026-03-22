@@ -48,7 +48,7 @@ def log():
     if not os.path.exists(EVENTS_FILE):
         return "No events defined. Please create events.json first."
 
-    with open(EVENTS_FILE) as f:
+    with open(os.path.join(PROJECT_DIR, "events.json")) as f:
         events = json.load(f)
 
     if event not in events:
