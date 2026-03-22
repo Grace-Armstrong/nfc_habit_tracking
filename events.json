@@ -1,5 +1,8 @@
 {
   "water": {
     "numeric": true
+  },
+  "water_ounces": {
+    "numeric": true
   }
 }
