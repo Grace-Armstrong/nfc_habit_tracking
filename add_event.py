@@ -1,7 +1,7 @@
 import json
 import sys
 
-BASE_URL = "http://10.0.0.204:5001/log"
+BASE_URL = "https://gracearmstrong.pythonanywhere.com/log"
 
 if len(sys.argv) < 2:
     print("Usage: python add_event.py <event_name>")

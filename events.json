@@ -1,1 +1,5 @@
-{}
+{
+  "water": {
+    "numeric": true
+  }
+}
