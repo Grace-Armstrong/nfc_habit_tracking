@@ -1,8 +1,11 @@
 {
-  "water": {
-    "numeric": true
-  },
   "water_ounces": {
     "numeric": true
+  },
+  "exercise_minutes": {
+    "numeric": true
+  },
+  "medication": {
+    "numeric": false
   }
 }
